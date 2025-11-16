@@ -1,0 +1,19 @@
+.countryItem {
+  list-style: none;
+  background-color: #003049;
+  color: #f4f3ee;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  border-left: 0.5rem solid #780000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 6rem;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.countryItem span:first-child {
+  font-size: 2rem;
+  line-height: 1;
+}

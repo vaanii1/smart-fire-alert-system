@@ -1,0 +1,18 @@
+.main {
+  background-image: linear-gradient(#caf0f8, #ffdac6);
+  display: flex;
+  padding: 5rem 0rem 1rem 0rem;
+}
+
+.mainItems {
+  flex: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 950px) {
+  .main {
+    flex-direction: column;
+    height: 120vh;
+  }
+}

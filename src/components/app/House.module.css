@@ -1,0 +1,17 @@
+.house {
+  background-color: #003566;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 13rem;
+  overflow: scroll;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

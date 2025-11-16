@@ -1,0 +1,45 @@
+/* leaflet css getting started  */
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+html {
+  font-family: "Jost", sans-serif;
+}
+
+/* Set box-sizing on elements to border-box */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+/* Remove default margin and padding from elements */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+/* Make images and videos responsive */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+/* Balance long headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+/* Set paragraph length  per line and make text wrap pretty */
+p {
+  max-width: 65ch;
+  text-wrap: pretty;
+}
+/* set body height to be 100% of the viewport height */
+body {
+  min-height: 100vh;
+}

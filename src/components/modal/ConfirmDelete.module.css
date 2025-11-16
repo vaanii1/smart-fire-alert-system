@@ -1,0 +1,16 @@
+.confirmDeleteFieldset legend {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #000;
+}
+
+.confirmDeleteFieldset {
+  border: none;
+}
+
+.confirmDeleteDiv {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 1rem;
+}

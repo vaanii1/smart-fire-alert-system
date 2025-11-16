@@ -1,0 +1,40 @@
+.btn {
+  border: none;
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  font-weight: 450;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #27509a;
+  color: #f9f7f3;
+  padding: 0 1rem;
+}
+
+.back {
+  /* border: 0.2rem solid #003049; */
+  background-color: #ced4da;
+  color: #27509a;
+}
+
+.back svg {
+  display: inline-block;
+}
+
+.position {
+  font-weight: 700;
+  position: absolute;
+  z-index: 1000;
+  font-size: 1.2rem;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #003049;
+  padding: 1rem;
+  color: #fff;
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}

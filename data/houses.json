@@ -1,0 +1,46 @@
+{
+  "houses": [
+    {
+      "location": "Sinkor",
+      "country": "Liberia",
+      "emoji": "🇱🇷",
+      "date": "2025-09-26T02:11:28.436Z",
+      "alertLevel": "1",
+      "ipAddress": "111100",
+      "report": "1",
+      "position": {
+        "lat": "6.3385473479362755",
+        "lng": "-10.729866027832033"
+      },
+      "id": 5
+    },
+    {
+      "location": "Monrovia",
+      "country": "Liberia",
+      "emoji": "🇱🇷",
+      "date": "2025-09-29T22:38:30.533Z",
+      "alertLevel": "",
+      "ipAddress": "",
+      "report": "",
+      "position": {
+        "lat": "6.305452295498996",
+        "lng": "-10.801963806152344"
+      },
+      "id": 6
+    },
+    {
+      "location": "Monrovia03",
+      "country": "Liberia",
+      "emoji": "🇱🇷",
+      "date": "2025-09-29T22:39:04.449Z",
+      "alertLevel": "1",
+      "ipAddress": "",
+      "report": "cccc",
+      "position": {
+        "lat": "6.3196081223337925",
+        "lng": "-10.79286575317383"
+      },
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+.footer {
+  background-color: #fdfffd;
+  padding-bottom: 3rem;
+  z-index: 1500;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logoDiv img {
+  width: 5rem;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.footerNav h2 {
+  font-size: 1.2rem;
+  font-weight: 450;
+  text-transform: capitalize;
+  color: #fdfffd;
+  margin-bottom: 1rem;
+}
+.footerNav ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.footerNav ul li a {
+  text-decoration: none;
+  color: #fdfffd;
+}
+.pagesNav {
+  padding: 1rem;
+  background-color: #003049;
+}
+.footerNav ul li a:hover {
+  border-bottom: 0.1rem solid #fdfffd;
+}
+
+.copyrightAndSocials h2 {
+  margin: 1rem;
+  color: #003049;
+  text-align: center;
+}
+
+:global(.fbLogo) {
+  margin-top: 0.2rem;
+  width: 2rem;
+  height: 1.7rem;
+}
+:global(.instaLogo) {
+  width: 2rem;
+  height: 2rem;
+}
+:global(.inLogo) {
+  margin-top: 0.1rem;
+  width: 2rem;
+  height: 1.9rem;
+}
+:global(.youtubeLogo) {
+  width: 2rem;
+  height: 2rem;
+}
+
+.copyrightAndSocials ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

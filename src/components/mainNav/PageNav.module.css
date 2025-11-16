@@ -1,0 +1,97 @@
+html {
+  background-color: #f4f3ee;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdfffd;
+  height: 5rem;
+  z-index: 1500;
+  width: 100%;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+.logoDiv img {
+  width: 7rem;
+}
+
+.nav ul {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: 420;
+  max-width: 75%;
+}
+
+.nav ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  padding: 2.2rem 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #003049;
+}
+
+.nav a:focus {
+  color: #c1121f;
+}
+.nav span {
+  display: flex;
+}
+.nav a:hover {
+  color: #c1121f;
+}
+
+.signupLink {
+  border: 0.2rem solid #c1121f;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.signupLink:hover {
+  background-color: #27509a;
+  color: #f4f3ee;
+}
+
+.loginLink {
+  border: 0.2rem solid #c1121f;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.loginLink:hover {
+  background-color: #caf0f8;
+}
+
+:global(.active) {
+  color: #c1121f;
+}
+
+/* svg  */
+.menuSvg {
+  display: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+@media (max-width: 950px) {
+  .hideMainNavLink {
+    display: none;
+  }
+  .menuSvg {
+    display: block;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+}

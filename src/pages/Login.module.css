@@ -1,0 +1,74 @@
+.main {
+  padding: 12rem 5rem 6rem 5rem;
+  background-image: linear-gradient(#780000, #003566);
+  display: flex;
+  justify-content: center;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-image: linear-gradient(
+    rgba(202, 240, 248, 0.85),
+    rgba(242, 232, 207, 0.85)
+  );
+  padding: 2rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(1.5rem);
+  width: 23rem;
+}
+
+.fieldset h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.fieldset input {
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  border: none;
+  background-color: #f9f7f3;
+  /* outline: none; */
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.fieldset button {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 450;
+  background-color: #27509a;
+  color: #f9f7f3;
+  /* backdrop-filter: blur(0.5rem); */
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.fieldset p {
+  font-size: 1.1rem;
+}
+
+.fieldset p a {
+  text-decoration: none;
+  color: #003049;
+}
+.fieldset p a:hover {
+  border-bottom: 0.1rem solid #003049;
+}
+
+.fieldset button:hover {
+  background-color: #003049;
+  box-shadow: 0rem 0rem 1rem 0.5rem rgba(149, 157, 165, 0.2);
+  color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}

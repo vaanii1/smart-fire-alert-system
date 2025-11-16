@@ -1,0 +1,11 @@
+.houseList {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  padding: 1rem;
+  height: 40vh;
+  overflow: scroll;
+}

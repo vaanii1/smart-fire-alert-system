@@ -1,0 +1,35 @@
+.houseItem {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  gap: 1rem;
+  background-color: #003566;
+  color: #fdfffd;
+  cursor: pointer;
+  padding: 1rem 0.5rem 1rem 1rem;
+  border-left: 0.5rem solid #780000;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.houseItem--active {
+  border: 0.5rem solid #780000;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  color: #780000;
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #ffdac6;
+  color: #000;
+}

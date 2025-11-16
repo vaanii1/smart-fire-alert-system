@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#caf0f8, #ffdac6);
+}
+
+.introDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 4rem 4rem 4rem;
+  background-color: #edf6f9;
+  margin: 6rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 1rem 0.5rem rgba(149, 157, 165, 0.2);
+}
+
+.introDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 5rem 5rem 5rem;
+  background-color: #edf6f9;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.introDiv h1,
+.introDiv2 h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 3.5rem;
+}
+
+.introDiv p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.introDiv div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.introDiv div a {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  background-color: #003566;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.introDiv div a:hover,
+.introDiv2 a:hover {
+  background-color: #780000;
+}
+
+.introDiv2 p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.subDivsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.subDivsContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #003566;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 1rem 0.5rem rgba(149, 157, 165, 0.2);
+}
+
+.subDivsContainer div h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 450;
+}
+
+.subDivsContainer div p {
+  text-align: center;
+}
+
+.subDivsContainer div img {
+  display: block;
+  width: 10rem;
+  height: 5rem;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.introDiv2 a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  background-color: #003566;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  width: 12rem;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .subDivsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .subDivsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .introDiv div a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: #003566;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+}

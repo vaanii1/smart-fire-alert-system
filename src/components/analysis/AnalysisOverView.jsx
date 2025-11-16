@@ -1,8 +1,8 @@
 import { FaPeopleRoof } from "react-icons/fa6";
-import styles from "./AnalysisOverView.module.css";
+import styles from "./AnalysisOverview.module.css";
 import { useHouses } from "../../contexts/HousesContext";
 
-function AnalysisOverView() {
+function AnalysisOverview() {
   //the houses data
   const { houses } = useHouses();
 
@@ -59,4 +59,4 @@ function AnalysisOverView() {
   );
 }
 
-export default AnalysisOverView;
+export default AnalysisOverview;

@@ -6,4 +6,7 @@ This is a single page application, build using React, React Router, Javascript, 
 
 CSS Modules is being used to style each component.
 
+Supabase is used for backend.
+
+
 

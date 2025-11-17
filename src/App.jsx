@@ -6,9 +6,9 @@ import { HousesProvider } from "./contexts/HousesContext";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
-// import HouseList from "./components/app/HouseList";
-//import CountryList from "./components/app/CountryList";
-//import House from "./components/app/House";
+import HouseList from "./components/app/HouseList";
+import CountryList from "./components/app/CountryList";
+import House from "./components/app/House";
 //import Form from "./components/app/Form";
 import Spinner from "./components/Spinner/Spinner";
 
@@ -35,9 +35,9 @@ const Login = lazy(() => import("./pages/Login"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 
 //split bundle at component level
-const HouseList = lazy(() => import("./components/app/HouseList"));
-const House = lazy(() => import("./components/app/HouseList"));
-const CountryList = lazy(() => import("./components/app/House"));
+// const HouseList = lazy(() => import("./components/app/HouseList"));
+// const House = lazy(() => import("./components/app/HouseList"));
+// const CountryList = lazy(() => import("./components/app/House"));
 const Form = lazy(() => import("./components/app/Form"));
 
 function App() {

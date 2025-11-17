@@ -3,7 +3,6 @@ import Message from "../message/Message";
 import Spinner from "../Spinner/Spinner";
 import CountryItem from "./CountryItem";
 import styles from "./CountryList.module.css";
-import HouseItem from "./HouseItem";
 
 function CountryList() {
   //data from the context
